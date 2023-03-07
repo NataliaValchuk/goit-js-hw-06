@@ -18,7 +18,7 @@ const images = [
 const galleryItems = images
   .map(({ url, alt }) => {
     return `
-    <li>
+    <li style="list-style: none;">
       <img
         src="${url}"
         alt="${alt}"
