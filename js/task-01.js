@@ -5,7 +5,7 @@ listWithClass.forEach((listEl) => {
   console.log(`Category: ${listEl.firstElementChild.textContent}`);
   console.log(
     `Elements: ${
-      listEl.lastElementChild.querySelectorAll('li').length
+      listEl.lastElementChild.children.length
     }`
   );
 });
